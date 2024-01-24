@@ -1,5 +1,7 @@
 import FoodBox from "./Components/FoodBox"
 import BearBox from "./Components/BearBox"
+import CatBox from "./Components/CatBox"
+import CatControl from "./Components/CatControl"
 function App() {
 
   return (
@@ -8,6 +10,10 @@ function App() {
     <div>
       <BearBox />
       <FoodBox />
+    </div>
+    <div>
+      <CatBox />
+      <CatControl />
     </div>
    </div>
   )

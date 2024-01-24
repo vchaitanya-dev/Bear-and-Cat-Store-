@@ -6,6 +6,7 @@ function FoodBox() {
       fish:state.fish +5
     }))
   }
+  
     const {fish,addOneFish,removeAllFish,removeOneFish} = useFoodStore()
   return (
     <div className="box">
